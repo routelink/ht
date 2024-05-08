@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "admin",
+        "email": "admin@localhost",
+        "password": "admin",
+        "phone": "+7 (999) 999-99-99"
+    },
+    {
+        "id": 2,
+        "name": "test",
+        "email": "test@localhost",
+        "password": "test",
+        "phone": "+7 (999) 999-99-99"
+    }
+]

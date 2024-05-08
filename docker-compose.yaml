@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres
+    restart: always
+    networks:
+      - hackatone
+    environment:
+      POSTGRES_DB: hackatone
+      POSTGRES_USER: hackatone
+      POSTGRES_PASSWORD: hackatone
+    ports:
+      - '5432:5432'
+    volumes:
+      - db-data:/var/lib/postgresql/data
+volumes:
+  db-data:
+networks:
+  hackatone:
